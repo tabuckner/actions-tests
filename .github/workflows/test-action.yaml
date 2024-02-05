@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Destination Branch
-        run: echo "Destination branch name: ${{ github.head_ref }}"
+        run: "echo \"Destination branch name: ${{ github.head_ref }}\""
